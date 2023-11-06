@@ -1,13 +1,13 @@
 import 'package:waveui/waveui.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomeScreenState extends State<HomeScreen> {
   bool isExpanded = false;
   @override
   Widget build(BuildContext context) {
@@ -25,8 +25,8 @@ class _HomePageState extends State<HomePage> {
               backgroundColor: Colors.grey.withOpacity(0.3),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(20),
-                child: Image.network(
-                  "https://media.licdn.com/dms/image/D5603AQEi5wMNUoo00w/profile-displayphoto-shrink_800_800/0/1681638157623?e=2147483647&v=beta&t=t6pKhFiuy0X6jcIQjG0KnLF6wl4jbiK3lc_L2yOs7oY",
+                child: Image.asset(
+                  'assets/images/image1.png',
                   fit: BoxFit.cover,
                 ),
               ),
