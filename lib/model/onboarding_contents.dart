@@ -12,20 +12,18 @@ class OnboardingContents {
 
 List<OnboardingContents> contents = [
   OnboardingContents(
-    title: "Track Your work and get the result",
+    title: "Track Your Money and get the result",
     image: "assets/images/image1.png",
-    desc: "Remember to keep track of your professional accomplishments.",
+    desc: "Remember to keep track of your money and it's lifetime",
   ),
   OnboardingContents(
-    title: "Stay organized with team",
+    title: "Stay organized with Money",
     image: "assets/images/image2.png",
-    desc:
-        "But understanding the contributions our colleagues make to our teams and companies.",
+    desc: "It will always makes your money organized for the future",
   ),
   OnboardingContents(
-    title: "Get notified when work happens",
+    title: "Get notified when Money finished",
     image: "assets/images/image3.png",
-    desc:
-        "Take control of notifications, collaborate live or on your own time.",
+    desc: "Take control of money.",
   ),
 ];
